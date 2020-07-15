@@ -11,6 +11,4 @@ router.post('/', (req,res) => {
     res.send('Register a user')
 });  // "/" points to API/USERS
 
-
-
 module.exports = router;  //  "/" points to API/USERS

@@ -1,4 +1,10 @@
 const express = require('express'); //our entry point to backend
+const connectDB = require('./config/db')
+
+
+// Connect Database
+connectDB();
+
  const app = express() // our variable app object 
 
 //  our route
