@@ -1,11 +1,14 @@
 const express = require('express'); //our entry point to backend
 const connectDB = require('./config/db')
 
+const app = express() // our variable app object 
 
 // Connect Database
 connectDB();
 
- const app = express() // our variable app object 
+// Init Middleware
+app.use(express.json({ extended: false}));
+
 
 //  our route
 app.get('/', (req, res) => res.json({msg: 'Welcome to the ContactKeeper API...'})); // this will display text in postman if connection is made. (testing purposes)
