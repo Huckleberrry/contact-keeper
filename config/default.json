@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://svcodes7:Marlow013116@cluster0.blyqs.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://svcodes7:Marlow013116@cluster0.blyqs.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
 }
