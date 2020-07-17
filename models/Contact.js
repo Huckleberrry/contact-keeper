@@ -1,11 +1,11 @@
 const mongoose = require('mongoose');
 
 
-const ContactShema = mongoose.Schema({
+const ContactSchema = mongoose.Schema({
+
     user:{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'users'
-
     },
     name: {
         type: String,
@@ -21,7 +21,6 @@ const ContactShema = mongoose.Schema({
     type: {
         type: String,
         default: 'personal' 
-
     },
     date: {
         type: Date,
@@ -29,4 +28,4 @@ const ContactShema = mongoose.Schema({
     },
 })
 
-module.exports = mongoose.model('contact', ContactShema);
+module.exports = mongoose.model('contact', ContactSchema);
