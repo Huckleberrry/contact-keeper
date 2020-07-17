@@ -50,7 +50,7 @@ router.post('/', [
             user: {
                 id: user.id
             }
-        }
+        };
         // here we set the time limit on our password
         jwt.sign(payload, config.get('jwtSecret'),{
             expiresIn: 360000
