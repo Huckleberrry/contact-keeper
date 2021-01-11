@@ -7,4 +7,4 @@ https://www.udemy.com/course/modern-react-front-to-back/#instructor-1
 
 
 
-Project are for portfolio purposes.  To showcase What I've learned.
+Project for portfolio purposes.  To showcase What I've learned.
