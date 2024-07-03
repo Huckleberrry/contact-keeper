@@ -105,39 +105,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please open an issue on GitHub or contact me at [your email].
+For any questions or feedback, please open an issue on GitHub.
 
----
-
-### Uploading the README to Your Repository
-
-1. **Create the README file locally**:
-   - Open your preferred text editor.
-   - Copy the provided README content into the editor.
-   - Save the file as `README.md` in your project's root directory.
-
-2. **Open your terminal** and navigate to your project directory if you're not already there:
-
-    ```bash
-    cd path/to/contact-keeper
-    ```
-
-3. **Add the README.md file to your repository**:
-
-    ```bash
-    git add README.md
-    ```
-
-4. **Commit the changes**:
-
-    ```bash
-    git commit -m "Add README file"
-    ```
-
-5. **Push the changes to your GitHub repository**:
-
-    ```bash
-    git push origin main
-    ```
-
-Replace `main` with the appropriate branch name if you're using a different branch. This will upload the README.md file to your repository, making it visible on GitHub.
